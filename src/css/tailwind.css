@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   * {
+      @apply font-Lexend select-none cursor-default;
+   }
+
+   a {
+      @apply cursor-pointer;
+   }
+}

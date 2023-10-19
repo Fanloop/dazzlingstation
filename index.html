@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth scroll-p-20">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="toko sepatu keren" />
+      <meta name="author" content="fahri prayoga" />
+      <meta name="keywords" content="dazzling station, toko sepatu, fanloop" />
+
+      <!-- font google -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Neon&display=swap"
+         rel="stylesheet"
+      />
+
+      <!-- favicon -->
+      <link
+         rel="shortcut icon"
+         href="./src/img/logo/logo.png"
+         type="image/x-icon"
+      />
+
+      <!-- css -->
+      <link rel="stylesheet" href="./src/css/style.css" />
+      <link rel="stylesheet" href="./src/css/atribut.css" />
+
+      <title>Shoes Store</title>
+   </head>
+   <body class="overflow-x-hidden">
+      <!-- to top -->
+      <a
+         class="fixed z-50 border-2 flex w-14 md:w-20 lg:w-14 aspect-square rounded-full border-color1 bg-color2 bottom-5 right-5 md:bottom-10 md:right-10 transition-all opacity-0 duration-500 translate-y-0"
+         href="#"
+         id="on-top"
+         ><img src="./src/img/logo/arrow_up.svg" class="scale-[2] m-auto"
+      /></a>
+      <!-- to top -->
+
+      <!-- navbar start -->
+      <header class="fixed w-full top-0 z-50">
+         <div
+            id="transparent"
+            class="relative w-full flex justify-between items-center transition-all bg-transparent px-5 md:px-10 lg:px20"
+         >
+            <a
+               class="flex lg:justify-between gap-3 items-center"
+               href="index.html"
+            >
+               <div class="aspect-square h-16 md:h-20">
+                  <img
+                     class="aspect-square object-cover scale-150"
+                     src="./src/img/logo/logo.png"
+                     alt="logo"
+                  />
+               </div>
+               <p
+                  class="font-Tilt-Neon text-2xl md:text-4xl capitalize font-bold text-color2"
+               >
+                  dazzling station
+               </p>
+            </a>
+            <nav>
+               <ul
+                  id="nav"
+                  class="absolute hidden lg:static left-0 right-0 mt-8 lg:mt-0 py-3 lg:py-0 bg-color3 lg:bg-transparent w-full lg:flex flex-col lg:flex-row justify-between gap-5 text-xl md:text-3xl lg:text-xl"
+               >
+                  <li
+                     class="text-center py-1 md:py-3 lg:py-0 font-medium text-color2 lg:text-color2/70"
+                  >
+                     <a
+                        class="before:content-['.'] before:h-1 before:text-transparent before:bg-color3 before:-bottom-2 before:w-0 before:left-0 before:right-0 before:absolute before:-z-10 before:hover:w-full before:transition-all relative z-10 px-2 hover:text-color2"
+                        href="#"
+                        >home</a
+                     >
+                  </li>
+                  <li
+                     class="text-center py-1 md:py-3 lg:py-0 font-medium text-color2 lg:text-color2/70"
+                  >
+                     <a
+                        class="before:content-['.'] before:h-1 before:text-transparent before:bg-color3 before:-bottom-2 before:w-0 before:left-0 before:right-0 before:absolute before:-z-10 before:hover:w-full before:transition-all relative z-10 px-2 hover:text-color2"
+                        href="#about"
+                        >about</a
+                     >
+                  </li>
+                  <li
+                     class="text-center py-1 md:py-3 lg:py-0 font-medium text-color2 lg:text-color2/70"
+                  >
+                     <a
+                        class="before:content-['.'] before:h-1 before:text-transparent before:bg-color3 before:-bottom-2 before:w-0 before:left-0 before:right-0 before:absolute before:-z-10 before:hover:w-full before:transition-all relative z-10 px-2 hover:text-color2"
+                        href="#product"
+                        >product</a
+                     >
+                  </li>
+                  <li
+                     class="text-center py-1 md:py-3 lg:py-0 font-medium text-color2 lg:text-color2/70"
+                  >
+                     <a
+                        class="before:content-['.'] before:h-1 before:text-transparent before:bg-color3 before:-bottom-2 before:w-0 before:left-0 before:right-0 before:absolute before:-z-10 before:hover:w-full before:transition-all relative z-10 px-2 hover:text-color2"
+                        href="#contact"
+                        >contact</a
+                     >
+                  </li>
+               </ul>
+            </nav>
+            <button id="nav-toggle" class="lg:hidden">
+               <img
+                  src="./src/img/logo/menu.svg"
+                  alt="toggle"
+                  id="img-toggle"
+               />
+            </button>
+         </div>
+      </header>
+      <!-- navbar end -->
+
+      <!-- jombotron start -->
+      <section
+         class="relative h-screen grid place-content-center px-10 bg-color4 text-color2"
+      >
+         <img
+            src="./src/img/logo/shoes.svg"
+            class="absolute top-28 md:top-36 left-2 md:left-40 h-14 md:h-24 animate-[float_4s_ease-in-out_infinite]"
+         />
+         <img
+            src="./src/img/logo/shoes.svg"
+            class="absolute bottom-24 md:bottom-40 right-10 md:right-40 h-20 animate-[float_3s_ease-in-out_infinite]"
+         />
+         <img
+            src="./src/img/logo/shoes.svg"
+            class="absolute top-40 md:top-32 right-1 md:right-1/3 h-16 animate-[float_3.5s_ease-in-out_infinite]"
+         />
+         <img
+            src="./src/img/logo/shoes.svg"
+            class="absolute bottom-12 md:bottom-32 left-10 md:left-1/3 h-20 animate-[float_4.5s_ease-in-out_infinite]"
+         />
+         <div
+            class="m-auto text-center w-fit text-4xl md:text-5xl lg::text-7xl font-semibold tracking-wide"
+         >
+            <h1>
+               Koleksi Sepatu
+               <span
+                  class="text-color3 font-Tilt-Neon text-5xl md:text-6xl lg:text-7xl"
+                  >Elegan</span
+               >
+            </h1>
+            <h1>Gaya yang Tak Terlupakan</h1>
+            <a
+               class="text-xl tracking-normal mt-5 m-auto md:w-fit block capitalize bg-color3 py-3 px-6 rounded-md transition-all hover:bg-transparent hover:ring-2 ring-color3"
+               href="#product"
+               >produk kami</a
+            >
+         </div>
+      </section>
+      <svg
+         xmlns="http://www.w3.org/2000/svg"
+         class="bg-color3"
+         viewBox="0 0 1440 320"
+      >
+         <path
+            fill="#E5E5E5"
+            fill-opacity="1"
+            d="M0,160L48,149.3C96,139,192,117,288,122.7C384,128,480,160,576,144C672,128,768,64,864,64C960,64,1056,128,1152,144C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+         ></path>
+      </svg>
+      <!-- jombotron end -->
+
+      <!-- about start -->
+      <section
+         id="about"
+         class="flex justify-center flex-col lg:flex-row px-10 lg:px-0 gap-24 -mt-1 pb-20 bg-color3 text-color2"
+      >
+         <div
+            class="w-full lg:w-1/3 flex flex-col justify-start lg:justify-between gap-10 lg:gap-0 aspect-video"
+         >
+            <div class="animate-[float_3.5s_ease-in-out_infinite]">
+               <img
+                  class="w-full aspect-video rotate-12 object-cover"
+                  src="./src/img/pngimg.com - running_shoes_PNG5816.png"
+                  alt="shoes"
+               />
+            </div>
+            <div
+               class="bg-black opacity-90 w-full animate-[shadow-animation_3.5s_ease-in-out_infinite]"
+            ></div>
+         </div>
+         <div class="w-full lg:w-1/3">
+            <h2
+               class="capitalize font-gabarito font-semibold text-7xl md:text-9xl"
+            >
+               about<span class="text-4xl md:text-7xl font-Lexend">us</span>
+            </h2>
+            <div class="w-full text-base md:text-2xl lg:text-xl font-medium">
+               Kami menghadirkan gaya, kenyamanan, dan inovasi dalam setiap
+               langkah Anda. Dari desain klasik hingga tren terbaru, kami
+               memiliki sepatu yang cocok untuk setiap gaya dan kebutuhan.
+               Bergabunglah dengan kami dalam menjelajahi dunia sepatu yang tak
+               terbatas, dan temukan pasangan sepatu sempurna untuk setiap
+               perjalanan Anda.
+            </div>
+         </div>
+      </section>
+      <svg
+         xmlns="http://www.w3.org/2000/svg"
+         class="-mt-1"
+         viewBox="0 0 1440 320"
+      >
+         <path
+            fill="#FCA311"
+            fill-opacity="1"
+            d="M0,32L48,42.7C96,53,192,75,288,117.3C384,160,480,224,576,224C672,224,768,160,864,133.3C960,107,1056,117,1152,138.7C1248,160,1344,192,1392,208L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+         ></path>
+      </svg>
+      <!-- about end -->
+
+      <!-- contact start -->
+      <section id="product">
+         <h2
+            class="text-color2 capitalize mb-10 font-semibold text-6xl md:text-7xl text-center"
+         >
+            product
+         </h2>
+         <div class="px-5 md:px-24 lg:px-32">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10">
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/1.jpg"
+                     alt="1"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        adidas superstar blue center
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.899.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/2.jpg"
+                     alt="2"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        air jordan 1 mid diamond shorts
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">3.765.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square scale-105"
+                     src="./src/img/shoes/3.jpg"
+                     alt="3"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        air jordan 1 mid south beach
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">2.799.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square object-cover"
+                     src="./src/img/shoes/4.jpg"
+                     alt="4"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        air jordan 1 high royal toe men
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">4.800.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/5.jpg"
+                     alt="5"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        air jordan chameleon
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">2.418.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/6.jpg"
+                     alt="6"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        adidas superstar foundation pack
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">2.560.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/7.jpg"
+                     alt="7"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        adidas superstar
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">2.652.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/8.jpg"
+                     alt="8"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        adidas hamburg oxide green
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.950.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/9.jpg"
+                     alt="9"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        puma rs-fast
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.750.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/10.jpg"
+                     alt="10"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        puma suade x diamond
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.099.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/11.jpg"
+                     alt="11"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        puma mapf1 rs-fast ms mercedes
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.097.000</span>
+                     </p>
+                  </div>
+               </div>
+               <div class="flex flex-col gap-4 lg:gap-3 text-color2 h-full">
+                  <img
+                     class="block aspect-square"
+                     src="./src/img/shoes/12.jpg"
+                     alt="12"
+                  />
+                  <div class="flex flex-col justify-between h-full">
+                     <p
+                        class="capitalize text-lg lg:text-2xl font-semibold lg:font-medium line-clamp-2"
+                     >
+                        puma muse echo
+                     </p>
+                     <p class="text-base lg:text-lg font-semibold">
+                        Rp.
+                        <span class="font-normal opacity-90">1.439.000</span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- contact end -->
+
+      <!-- contact start -->
+      <section id="contact" class="bg-color4 mt-10 md:mt-20 pb-20 pt-5">
+         <h2
+            class="text-color2 capitalize mb-5 lg:mb-10 font-semibold text-6xl md:text-7xl text-center"
+         >
+            contact us
+         </h2>
+         <div
+            class="px-5 lg:px-32 w-full h-fit flex flex-col lg:flex-row justify-start lg:justify-between gap-5 lg:gap-20"
+         >
+            <div class="w-full h-fit">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4825.051157277413!2d98.61857485322301!3d3.589313524787145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312e4f46b5ab19%3A0x447dc6ab3d465c1e!2sSekolah%20Menengah%20Kejuruan%20Negeri%209%20Medan!5e0!3m2!1sid!2sid!4v1697638086368!5m2!1sid!2sid"
+                  style="border: 0"
+                  class="w-full aspect-[3/4] md:aspect-video"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+               ></iframe>
+            </div>
+            <div
+               class="flex flex-row lg:flex-col justify-center gap-2 text-2xl"
+            >
+               <a
+                  target="_blank"
+                  href="mailto:dazzlingstationmail@gmail.com"
+                  class="rounded-full p-5 bg-color5 w-fit aspect-square border-2 border-color2"
+                  ><img
+                     class="lg:w-10"
+                     src="./src/img/logo/email.svg"
+                     alt="email"
+               /></a>
+               <a
+                  target="_blank"
+                  href="https://instagram.com/dazzlingstation_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+                  class="rounded-full p-5 bg-[#DB4437] w-fit aspect-square border-2 border-color2"
+                  ><img
+                     class="lg:w-10"
+                     src="./src/img/logo/instagram.svg"
+                     alt="instagram"
+               /></a>
+               <a
+                  target="_blank"
+                  href="https://www.tiktok.com/@dazzlingstation?_t=8gcEAwUpcvK&_r=1"
+                  class="rounded-full p-5 bg-color2 w-fit aspect-square border-2 border-color2"
+                  ><img
+                     class="lg:w-10"
+                     src="./src/img/logo/tiktok.svg"
+                     alt="tiktok"
+               /></a>
+               <a
+                  target="_blank"
+                  href="https://wa.me/+6281284719676"
+                  class="rounded-full p-5 bg-[#25d366] w-fit aspect-square border-2 border-color2"
+                  ><img
+                     class="lg:w-10"
+                     src="./src/img/logo/whatsapp.svg"
+                     alt="whatsapp"
+               /></a>
+            </div>
+         </div>
+      </section>
+      <!-- contact end -->
+
+      <!-- footer start -->
+      <footer class="text-color4 bg-color2 text-center text-sm md:text-lg py-5">
+         copyright<sup>&copy;</sup>
+         <span class="font-semibold">dazzling station</span> 2023
+      </footer>
+      <!-- footer end -->
+
+      <!-- script -->
+      <script src="./src/js/main.js"></script>
+   </body>
+</html>

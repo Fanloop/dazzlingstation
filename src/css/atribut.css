@@ -1,0 +1,31 @@
+@keyframes float {
+   0%,
+   100% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(-10px);
+   }
+}
+
+@keyframes shadow-animation {
+   0%,
+   100% {
+      border-radius: 50%;
+      height: 0.5rem;
+      filter: blur(10px);
+      margin: 0 auto;
+   }
+   50% {
+      border-radius: 50%;
+      height: 0.5rem;
+      filter: blur(10px);
+      width: 80%;
+      margin: 0 auto;
+   }
+}
+
+.active {
+   opacity: 0;
+   transform: translateY(2rem);
+}
